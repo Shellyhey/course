@@ -1,0 +1,116 @@
+[0m17:23:44.447280 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:23:44.618526 | 98f5feb9-245a-400b-b4ef-2f951eb73104 ==============================
+[0m17:23:44.618526 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:23:44.619344 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Shelly He\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:23:44.650199 [debug] [MainThread]: Starter project path: C:\Users\Shelly He\course\.venv\Lib\site-packages\dbt\include\starter_project
+[0m17:23:44.677232 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:23:44.678475 [debug] [MainThread]: Command `dbt init` succeeded at 17:23:44.678325 after 0.30 seconds
+[0m17:23:44.678761 [debug] [MainThread]: Flushing usage events
+[0m18:23:22.524124 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:23:22.627183 | 824d8821-4abb-4157-9aa6-8be1bd4f1998 ==============================
+[0m18:23:22.627183 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:23:22.628332 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Shelly He\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt test', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:23:22.628917 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Shelly He\course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:23:22.630138 [debug] [MainThread]: Command `dbt test` failed at 18:23:22.629671 after 0.19 seconds
+[0m18:23:22.630821 [debug] [MainThread]: Flushing usage events
+[0m18:28:26.429220 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:28:26.546056 | 58ab5dab-082f-4fd6-93db-9249847f84b3 ==============================
+[0m18:28:26.546056 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:28:26.547048 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Shelly He\\.dbt', 'invocation_command': 'dbt test', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:28:26.547564 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Shelly He\course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:28:26.548402 [debug] [MainThread]: Command `dbt test` failed at 18:28:26.548248 after 0.17 seconds
+[0m18:28:26.548673 [debug] [MainThread]: Flushing usage events
+[0m18:30:01.829344 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:30:01.916340 | 0a87316c-aa89-4488-9a42-fd14cee86157 ==============================
+[0m18:30:01.916340 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:30:01.917083 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Shelly He\\.dbt', 'invocation_command': 'dbt test', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:30:01.917500 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Shelly He\course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:30:01.918379 [debug] [MainThread]: Command `dbt test` failed at 18:30:01.918250 after 0.13 seconds
+[0m18:30:01.918678 [debug] [MainThread]: Flushing usage events
+[0m18:31:56.439362 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:31:56.631694 | 49a78275-50dc-4448-a4f0-bda44d2dccc1 ==============================
+[0m18:31:56.631694 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:31:56.632677 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Shelly He\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt test', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:31:56.633125 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Shelly He\course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:31:56.633874 [debug] [MainThread]: Command `dbt test` failed at 18:31:56.633767 after 0.24 seconds
+[0m18:31:56.634138 [debug] [MainThread]: Flushing usage events
+[0m18:33:51.221845 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:33:51.297383 | 29748ef8-c029-411b-880b-f9a2d400d58c ==============================
+[0m18:33:51.297383 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:33:51.298205 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Shelly He\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt test', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:33:51.298692 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Shelly He\course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:33:51.299453 [debug] [MainThread]: Command `dbt test` failed at 18:33:51.299333 after 0.13 seconds
+[0m18:33:51.299749 [debug] [MainThread]: Flushing usage events
+[0m18:40:20.376182 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:40:20.536676 | 08d6896c-686f-4c8e-95a6-9bc138f4a780 ==============================
+[0m18:40:20.536676 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:40:20.537580 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Shelly He\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt test', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:40:20.538094 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Shelly He\course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:40:20.538894 [debug] [MainThread]: Command `dbt test` failed at 18:40:20.538775 after 0.21 seconds
+[0m18:40:20.539148 [debug] [MainThread]: Flushing usage events
+[0m18:50:45.037940 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:50:45.124413 | f1c35835-6d8b-45e8-93d7-2718d7c176ac ==============================
+[0m18:50:45.124413 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:50:45.125216 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Shelly He\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt test', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:50:45.125608 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Shelly He\course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:50:45.126484 [debug] [MainThread]: Command `dbt test` failed at 18:50:45.126344 after 0.14 seconds
+[0m18:50:45.126755 [debug] [MainThread]: Flushing usage events
